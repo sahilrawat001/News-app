@@ -1,0 +1,14 @@
+.main{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.eom{
+    text-align: center;
+}
+.eom img{
+    width: 250px;
+    border-radius: 100%;
+}
