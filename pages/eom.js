@@ -1,10 +1,12 @@
 import styles from '../styles/EOM.module.css'
 import Head from 'next/head';
+import { Toolbar } from '../components/toolbar';
 
 export const EOM =({employee})=>{
     console.log(employee);
  return(
     <>
+    <Toolbar/>
      <Head>
         <title>Employee Of The Month</title>
         <meta
