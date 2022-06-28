@@ -8,7 +8,20 @@
 .eom{
     text-align: center;
 }
+.eom h1{
+    font-size: 28px;
+    color: aqua;
+}
+.eom h3{
+}
+.eom h6{
+
+}
 .eom img{
     width: 250px;
     border-radius: 100%;
+}
+.eom p{
+    font-size: 18px;
+    font-weight: 800;
 }

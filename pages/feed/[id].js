@@ -27,7 +27,7 @@ export const Feed =({pageNumber,articles }  )=>{
                 }
             }  }
             className={pageNumber===1 ?styles.disabled :styles.active }>
-                       <button className="previous"> previous-page</button>
+                       <button className={styles.prev}> previous-page</button>
             </div>
             <div className={styles.pageno} >#{pageNumber} </div>
 
@@ -39,7 +39,7 @@ export const Feed =({pageNumber,articles }  )=>{
                 }
             }  }
             className={pageNumber===5 ?styles.disabled :styles.active }>
-                       <button className="next"> next-page</button>
+                       <button className={styles.next}> next-page</button>
             </div>
             <br/> 
             

@@ -46,8 +46,7 @@
        border-radius: 8px;
        box-sizing: border-box;
        color: #222222;
-       cursor: pointer;
-       display: inline-block;
+        display: inline-block;
        font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
        font-size: 16px;
        font-weight: 600;
@@ -63,6 +62,9 @@
        user-select: none;
        -webkit-user-select: none;
        width: auto;
+    }
+    .paginator .active{
+        cursor: pointer;
     }
     .paginator .disabled{
             cursor: not-allowed;

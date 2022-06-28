@@ -33,8 +33,8 @@ export const EOM =({employee})=>{
         <h1> Employee</h1>
     </div>
     <div className={styles.eom} >
-        <h3>{employee.name}</h3>
-        <h6>{employee.position} </h6>
+        <h2>{employee.name}</h2>
+        <h3>{employee.position} </h3>
         <img src={employee.image}/>
         <p>{employee.description} </p>
     </div>
