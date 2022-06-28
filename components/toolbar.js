@@ -14,11 +14,9 @@ export const Toolbar =()=>{
             <div  onClick={()=>router.push('/eom') }>
                 EOM
             </div>
-            <div  onClick={()=> window.location.href=" https://steelkiwi.com/blog/what-is-backend-development/" }>
-Twitter            </div>
-            <div  onClick={()=>router.push('/') }>
-                Instagram
-            </div>
+            <div  onClick={()=> window.location.href="https://twitter.com/SahilRawat03" }>Twitter </div>
+            <div  onClick={()=> window.location.href=" https://www.instagram.com/sahilrawat_001/" }>Instagram </div>
+             
         </div>
 
     

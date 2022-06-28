@@ -8,8 +8,9 @@
    }
    .main div{
     margin: 25px;
+    font-weight: 500;
     cursor: pointer;
    }
    .main div:hover {
-    color: rgb(168, 185, 199);
+    color: rgb(0, 128, 255);
    }

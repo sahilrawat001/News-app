@@ -30,7 +30,7 @@ export const EOM =({employee})=>{
       </Head>
 <div className='container'>
     <div className={styles.main} >
-        <h1> Employee</h1>
+        <h1> Employee Of The Month</h1>
     </div>
     <div className={styles.eom} >
         <h2>{employee.name}</h2>

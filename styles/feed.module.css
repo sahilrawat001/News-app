@@ -8,7 +8,7 @@
     width: 600px;
     margin: 20px;
     border-bottom: 2px solid black;
-    background-color: rgb(207, 152, 152);
+    background-color: rgb(216, 216, 216);
  }
  .post img{
     width: 100%;
@@ -22,6 +22,65 @@
     color: rgb(207, 252, 145);
     }
    
+    .paginator {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+      .paginator div {
+        font-weight: 500;
+        font-size: 12px;
+          
+         width: 60px;
+         margin-bottom: 20px;
+      }
+      .paginator .active {
+        width: 90px;
+        padding-left: 6px;
+        height: 30px;
+        padding-left: 20px;
+        font-size: 16px;
+         cursor: pointer;
+
+        background-color:#eeeef0;
+    color: rgb(0, 0, 0);
+    border:none;
+    border-radius:10px;
+      }
+      .paginator .disabled {
+        width: 90px;
+        padding-left: 6px;
+        height: 30px;
+        padding-left: 20px;
+        font-size: 16px;
+        cursor: not-allowed;
+         background-color:#e6e6ed;
+    color: rgb(0, 0, 0);
+    border:none;
+    border-radius:10px;
+      }
+      .paginator .disabled:hover {
+        cursor: not-allowed;
+        background-color:#97999e;
+         color: #ffffff;
+        transition: 0.7s;
+       }
+      .paginator .active:hover {
+        background-color:#3b6ef9;
+         color: #ffffff;
+        transition: 0.7s;
+    }
+
+    .pageno {
+        width: 20px;
+        font-weight: 500;
+        margin-top: 0px;
+       margin-right: 10px;
+       margin-left: 20px;
+       padding-left: 20px;
+
+    }
+    /*
 .paginator{
     width: 100%;
     display: flex;
@@ -33,13 +92,7 @@
         color: gray;
     }
 
-      .pageno {
-        width: 20px;
-        margin-top: 10px;
-       margin-right: 10px;
-       margin-left: 10px;
-
-    }
+    
     .paginator button{
          
         border: 1px solid #222222;
@@ -66,17 +119,16 @@
     .paginator .active{
         cursor: pointer;
     }
+    .active{
+        cursor:pointer;
+    }
     .paginator .disabled{
             cursor: not-allowed;
         color: aqua;
     }
-         .paginator .active:active {
-     background-color: #F7F7F7;
-     border-color: #000000;
-     transform: scale(.96);
-   }
+     
 
-    /*
+    
      .paginator button{
          
            background-color: #FFFFFF;

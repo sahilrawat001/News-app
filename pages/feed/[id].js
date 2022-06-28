@@ -21,13 +21,14 @@ export const Feed =({pageNumber,articles }  )=>{
         <div className={styles.paginator}>
             {/* previous button */}
             < div 
-            onClick={ ()=>{
+           
+            className={pageNumber===1 ? styles.disabled : styles.active }
+                 onClick={ ()=>{
                 if(pageNumber>1){
-                    router.push(`/feed/${pageNumber-1} `)
+                    router.push(`/feed/${pageNumber-1} `);
                 }
-            }  }
-            className={pageNumber===1 ?styles.disabled :styles.active }>
-                       <button className={styles.prev}> previous-page</button>
+            }  }>
+                       previous 
             </div>
             <div className={styles.pageno} >#{pageNumber} </div>
 
@@ -39,9 +40,8 @@ export const Feed =({pageNumber,articles }  )=>{
                 }
             }  }
             className={pageNumber===5 ?styles.disabled :styles.active }>
-                       <button className={styles.next}> next-page</button>
+                        next 
             </div>
-            <br/> 
             
         </div>
        </div>

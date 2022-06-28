@@ -9,7 +9,7 @@ export default function Home() {
         <Toolbar/>
         <div className={styles.main}>
           <h1> Next.js News App</h1>
-          <h3>Your one stop shop</h3>
+          <h3>Click on Feed to get news updates</h3>
         </div>
 
 
