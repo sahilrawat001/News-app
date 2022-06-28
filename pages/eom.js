@@ -1,8 +1,31 @@
 import styles from '../styles/EOM.module.css'
+import Head from 'next/head';
 
 export const EOM =({employee})=>{
     console.log(employee);
  return(
+    <>
+     <Head>
+        <title>Employee Of The Month</title>
+        <meta
+          name="description"
+          content={`This month's employee of the month is ${employee.name}`}
+        />
+
+        <meta property="og:image" content={employee.image} />
+        <meta property="og:title" content="Employee Of The Month" />
+        <meta
+          property="og:description"
+          content={`This month's employee of the month is ${employee.name}`}
+        />
+
+        <meta property="twitter:image" content={employee.image} />
+        <meta property="twitter:title" content="Employee Of The Month" />
+        <meta
+          property="twitter:description"
+          content={`This month's employee of the month is ${employee.name}`}
+        />
+      </Head>
 <div className='container'>
     <div className={styles.main} >
         <h1> Employee</h1>
@@ -14,7 +37,7 @@ export const EOM =({employee})=>{
         <p>{employee.description} </p>
     </div>
 </div>
-
+</>
     
     );
 
