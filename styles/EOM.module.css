@@ -15,16 +15,16 @@
 .eom h1:hover{
   color: #0070f3;
 }
-.eom h3:hover{
+.container h1:hover{
+  color: #0070f3;
+}
+.eom h2:hover{
   color: #4cccff;
 }
 .eom h3:hover{
   color: #4cccff;
 }
-.eom h3{
-}
-.eom h6{
-}
+ 
 .eom img{
     width: 250px;
     border-radius: 100%;
