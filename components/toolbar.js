@@ -4,9 +4,10 @@ export const Toolbar =()=>{
     const router =useRouter();
 
     return(
+        <div>
         <div className={styles.main}>
             <div   onClick={()=>router.push('/') }>
-                home
+                Home
             </div>
             <div  onClick={()=>router.push('/feed/1') }>
                 Feed
@@ -18,7 +19,9 @@ export const Toolbar =()=>{
             <div  onClick={()=> window.location.href=" https://www.instagram.com/sahilrawat_001/" }>Instagram </div>
              
         </div>
+            <hr></hr>
 
+            </div>
     
     )
 }
